@@ -8,7 +8,7 @@ def sentMail():
         # EMAIL_ADDRESS = os.environ.get('EMAIL_USER')
         # EMAIL_PASSWORD = os.environ.get('EMAIL_PASS')
         EMAIL_ADDRESS = 'fire.alert.ugv@gmail.com'
-        EMAIL_PASSWORD = 'aughuzocnzidtdoy'
+        EMAIL_PASSWORD = ${{ secrets.EMAIL_PASSWORD }}
 
         contacts = ['sahriarnazmul272@gmail.com', 'mahfuzrahman129@gmail.com','minhazsharif209@gmail.com','moyeen5221@gmail.com']
 
